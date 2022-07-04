@@ -1,0 +1,102 @@
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: #dd4b1f;
+    font-family: monospace;
+    margin-left:55px; 
+    transition: .3s linear;
+  
+}
+#home{
+    margin-right: 750px;
+}
+a:hover{
+    border:solid;
+    border:solid;
+    border-width:0;
+    color: white;
+    background-color:#dd4b1f ;
+}
+body {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top:30px;
+    text-align: center;
+    background: url(bg.jpg);
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+
+
+}
+.navbar{
+    background-color: white;
+    height:30px;
+    padding-top:10px;
+
+    top:0px;
+    box-shadow: 0px 1px 1px 1px white;
+
+    color:white;
+    width:100%;
+    position: fixed;
+
+}
+#css{
+    margin-left: 30px;
+}
+#js{
+    margin-right: 25px;
+}
+.main{
+    margin-left: 100px;
+    padding: 60px 400px;
+
+}
+.proffesion,h4{
+    font-size: 18px;
+    color: #e66767;
+  }
+
+.name{
+    color: #f2f2f2;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+.desc{
+    color: #35ac92;
+    font-size: 14px;
+    font-family:monospace;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+.card-header{
+    border-radius: 10px;
+    background: #2c3a47;
+    padding: 60px 40px;
+  }
+.skills{
+
+    margin: 10px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    color:white;
+}
+.pic{
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff, #e66767);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+  }
+#photo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
