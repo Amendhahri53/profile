@@ -13,7 +13,6 @@ a{
 }
 a:hover{
     border:solid;
-    border:solid;
     border-width:0;
     color: white;
     background-color:#dd4b1f ;
@@ -78,6 +77,14 @@ body {
     background: #2c3a47;
     padding: 60px 40px;
   }
+#cont{
+    border:solid;
+    border-width:0;
+    color: white;
+    border-color: #dd4b1f;
+    margin-right: 50px;
+    padding-top: 50px;
+}
 .skills{
 
     margin: 10px;
@@ -93,6 +100,20 @@ body {
     border-radius: 50%;
     background-size: 200% 200%;
     animation: animated-gradient 2s linear infinite;
+  }
+  @keyframes animated-gradient{
+    25%{
+      background-position: left bottom;
+    }
+    50%{
+      background-position: right bottom;
+    }
+    75%{
+      background-position: right top;
+    }
+    100%{
+      background-position: left top;
+    }
   }
 #photo{
     display: block;
